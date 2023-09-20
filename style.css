@@ -1,0 +1,27 @@
+body {
+  
+  font-size: 25px;
+  font-family: 'Lexend Deca', serif;
+  color: white;
+  
+  background-image: url('backgroundx7.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  text-align: center;
+  background-blend-mode: lighten;
+
+}
+
+p {
+    color: white;
+    text-align: center;
+  font-family: 'Lexend Deca', serif;
+  font: size 30px;;
+}
+
+
+.label {
+font-size: 10px;
+}

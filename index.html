@@ -55,7 +55,7 @@
             <h2>WELCOME!</h2>
           <P> Please type your full name to get your safty award </P>
           
-            <form action="https://formspree.io/f/mgejreep" method="POST" onsubmit="return validateForm()">
+            <form action="https://formspree.io/f/mgejreep" method="POST" onsubmit="allLetter(document.form.name)">
             <div class="form-field">
                 <label for="name"> Full Name</label>
                 <input required type="text" id="'name" name="name" placeholder="Enter your Full name..">
@@ -63,7 +63,7 @@
 
             
                 <div>
-                <input id="button" type="submit" value="Submit" onclick="allLetter(document.form.name)"/>  
+                <input id="button" type="submit" value="Submit"/>  
 
               </form>
             
